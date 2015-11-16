@@ -1,0 +1,21 @@
+{
+  "name": "TwitWatchJS",
+  "version": "1.0.0",
+  "description": "Tweets watcher based on keywords filtering",
+  "main": "watch.js",
+  "scripts": {
+    "start": "node watch.js"
+  },
+  "author": "Frédéric Woelffel",
+  "license": "MIT",
+  "logfile": "tweets.json",
+  "keywords": [
+    "Hello"
+  ],
+  "TwitterAPI": {
+    "consumer_key": "YOUR_CONSUMER_KEY",
+    "consumer_secret": "YOUR_CONSUMER_SECRET",
+    "access_token": "YOUR_ACCESS_TOKEN",
+    "access_token_secret": "YOUR_ACCESS_TOKEN_SECRET"
+  }
+}
